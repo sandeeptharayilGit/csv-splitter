@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./csv-splitter.js ./tests-sandbox/data.csv 100 -o ./tests-sandbox/output"
+    "test": "./csv-splitter.js ./tests-sandbox/data.csv 100 -o ./tests-sandbox/output",
+    "split": "./csv-splitter.js ./tests-sandbox/BillingDetail_NEW.csv 20000 -o ./tests-sandbox/output"
   },
   "repository": {
     "type": "git",
